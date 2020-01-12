@@ -9,6 +9,18 @@ Repository for ACM IUI'20 Paper *iSeqL: Interactive Sequence Learning*
 
 Preprint coming soon
 
+
+## Documentation
+
+This repository contains everything needed for `iSeqL` and the experiments run with it including the `NER` library, the server, and the UI, along with any unit tests, and scripts used. More detail on each of them is available at the README's in the corresponding folders.
+
+* [iSeqL UI](iseql_front_end/README.md)
+* [iSeqL Server](iseql_server/README.md.md)
+* [iSeqL Server Configurations](iseql_server/configurations/README.md)
+* [NER Library](ner/README.md)
+* [Scripts](scripts/README.md)
+* [Unit Tests for NER](tests/README.md)
+
 ## Set Up
 
 To set up the python code create a python3 environment with the following:
