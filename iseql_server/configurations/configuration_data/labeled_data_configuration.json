@@ -1,0 +1,15 @@
+{
+    "default_schema": "default_data_configuration.json",
+    "data_file": "data.csv",
+    "context_level": "DOCUMENT",
+    "data_schema": {
+        "type": "csv",
+        "rows": ["id", "sent", "label"],
+        "row_types": ["int", "str", "str"],
+        "text_field": "sent",
+        "id_field": "id",
+        "label_field": "label",
+        "label_ner_class": "ADR",
+        "includes_header": false
+    }
+}

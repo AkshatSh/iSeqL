@@ -1,0 +1,22 @@
+{
+    "default_schema": "active_learning_manager_configuration.json",
+    "model_schema": {
+        "model_type": "elmo_bilstm_crf",
+        "embedding_dim": 1024,
+        "hidden_dim": 1000
+    },
+    "active_learning_sampling_rate": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "trainer_params": {
+        "learning_rate": 0.01,
+        "weight_decay": 1e-4,
+        "momentum": 0.0,
+        "optimizer_type": "SGD",
+        "batch_size": 1,
+        "num_workers": 2,
+        "num_epochs": 5
+    },
+    "active_heuristic": "random",
+    "sampling_strategy": "top_k",
+    "comparison_metric": "train_f1_avg",
+    "test_set_split": 0.2
+}

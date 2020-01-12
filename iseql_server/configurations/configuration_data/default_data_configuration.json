@@ -1,0 +1,15 @@
+{
+    "default_schema": null,
+    "data_file": "data.csv",
+    "context_level": "DOCUMENT",
+    "data_schema": {
+        "type": "csv",
+        "rows": ["id", "sent"],
+        "row_types": ["int", "str"],
+        "text_field": "sent",
+        "id_field": "id",
+        "label_field": null,
+        "label_ner_class": null,
+        "includes_header": false
+    }
+}
