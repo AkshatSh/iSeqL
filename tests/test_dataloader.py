@@ -50,8 +50,11 @@ class TestDataloader(unittest.TestCase):
         Ensure that the file parser is able to parse the file for CONLL
         with no errors
         '''
-        train_dataset = conlldataloader.ConllDataSet(constants.CONLL2003_TRAIN)
-        train_dataset.parse_file()
+        if constants.HAS_LOCAL_DATA_FILES:
+            train_dataset = conlldataloader.ConllDataSet(constants.CONLL2003_TRAIN)
+            train_dataset.parse_file()
+        else:
+            print("No access to data files, skipping CoNLL test")
 
     def test_conll_dataset_getter(self):
         '''

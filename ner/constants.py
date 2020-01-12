@@ -1,6 +1,10 @@
 import os
 import sys
 
+# Repository data files, if this flag is set to true, repository assumes
+# access to the data files and uses them in test suite
+HAS_LOCAL_DATA_FILES: bool = False
+
 # Special Tokens 
 UNKNOWN_TOKEN = '<UNK>'
 START_TOKEN = '<START>'
