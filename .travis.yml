@@ -30,7 +30,7 @@ install:
   - if [[ $TRAVIS_PYTHON_VERSION != 3.7 ]]; then pip install tensorflow; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 3.7 ]]; then pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl; fi
   - pip install -e .
-  - python setup_nltk.py
+  - python scripts/setup_nltk.py
   - python -m spacy download en
 script:
   # - python -m unittest discover (no need to run twice)
