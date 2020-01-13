@@ -156,3 +156,7 @@ final_h_10_eps/
 help/
 al_10_trial_results/
 experiment_active_heuristic/
+
+
+# front end
+iseql_front_end/node_modules/
