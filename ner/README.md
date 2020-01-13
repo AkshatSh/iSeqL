@@ -1,6 +1,27 @@
-# Benchmarks
+# iSeqL NER Library
+
+This is the library that holds all the algorithms and structures for neural entity recognition and active learning.
+
+## File Structure
+
+TODO
+
+## Models Supported
+
+WIP
+
+* `elmo_bilstm_crf`
+* `bilstm_crf`
+* `dictionary`
+* `phrase_dictionary`
 
 ## Active Learning
+
+Algorithms supported
+
+* `Random`
+* `Uncertainty`
+* `kNN`
 
 ```
 
