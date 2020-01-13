@@ -1,4 +1,6 @@
-# Create React App example
+# iSeqL Front End React Server
+
+Work in progress (WIP), details soon to come on code structure and how to launch server locally.
 
 ## How to use
 
