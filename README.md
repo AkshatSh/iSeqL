@@ -9,6 +9,10 @@ Repository for ACM IUI'20 Paper *iSeqL: Interactive Sequence Learning*
 
 Preprint coming soon
 
+### Citation
+
+TODO
+
 
 ## Documentation
 
