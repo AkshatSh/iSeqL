@@ -7,7 +7,7 @@ Repository for ACM IUI'20 Paper *iSeqL: Interactive Sequence Learning*
 
 ## Paper
 
-Preprint coming soon
+[Shrivastava and Heer (2020): iSeqL: Interactive Sequence Learning](paper.pdf)
 
 ### Citation
 
