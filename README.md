@@ -11,8 +11,15 @@ Repository for ACM IUI'20 Paper *iSeqL: Interactive Sequence Learning*
 
 ### Citation
 
-TODO
-
+```
+@inproceedings{2020-iseql,
+ title = {iSeqL: Interactive Sequence Learning},
+ author = {Akshat Shrivastava AND Jeffrey Heer},
+ booktitle = {Intelligent User Interfaces},
+ year = {2020},
+ url = {http://idl.cs.washington.edu/papers/iseql},
+}
+```
 
 ## Documentation
 
