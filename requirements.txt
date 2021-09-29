@@ -66,7 +66,7 @@ msgpack==0.5.6
 msgpack-numpy==0.4.3.2
 murmurhash==1.0.1
 -e git+https://github.com/AkshatSh/ActiveLearnedNER.git@497bc2ed8d4f1244c792f9ca141107cfbe0a193e#egg=ner
-nltk==3.4
+nltk==3.6.3
 numpy==1.15.4
 numpydoc==0.8.0
 overrides==1.9
